@@ -37,10 +37,17 @@ function show(event){
         login.style.display = 'none'
         sucesso.innerHTML = info[0]+ ', seu login foi realizado com sucesso!'
         sucesso.style.display = 'flex'
-        
     }
-
+    else{
+        msgerro1.innerHTML = ''
+        userInput.style.border = 'none'
+        senhaInput.style.border = 'none'
+        msgerro2.innerHTML ='Faça seu cadastro primeiro!'
+    }
+        
 }
+
+
 
 function showcadastro(event){
     event.preventDefault()

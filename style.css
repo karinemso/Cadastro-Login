@@ -29,20 +29,20 @@ fieldset {
 
 .btn{
     margin-top: 8px;
-    background-color: lightblue;
+    background-color: rgb(24, 153, 153);
     color: black;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .btn:hover  {
-    background-color: blue;
-    color: lightblue;
+    background-color: black;
+    color: rgb(24, 153, 153);
 }
 
 #resultado{
     display:none;
-    color: green;
+    color:rgb(24, 153, 153) ;
 }
 
 .msgerro {
