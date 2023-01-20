@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(20, 20, 20);
+    color: rgb(24, 153, 153);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.btn{
+    margin-top: 8px;
+    background-color: lightblue;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover  {
+    background-color: blue;
+    color: lightblue;
+}
+
+#resultado{
+    display:none;
+    color: green;
+}
+
+.msgerro {
+    color:red;
+    font-size: 15px;
+}
+
+#cadastro {
+    display: none;
+}
+
+#inicio {
+    display: flex;
+}
